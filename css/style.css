@@ -1,0 +1,40 @@
+body{ background-color: #FFCCED;
+
+
+
+}
+
+.ContenedorGral{
+display: inline-grid;
+background-color: #DD94FE;
+font-size: 17px;
+width: 80%;
+padding: 20px;
+object-position: center;
+
+	}
+
+
+.ContenedorGral img{
+	width: 200px;
+
+	}
+.remedios{
+
+	width: 20%;
+}
+
+.celia{
+
+	width: 20%;
+}
+
+.lola{
+
+	width: 20%;
+}
+
+.lilia{
+
+	width: 20%;
+}

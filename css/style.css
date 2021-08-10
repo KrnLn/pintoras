@@ -1,40 +1,177 @@
 body{ background-color: #FFCCED;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
 
 
 
 }
+.introducciontexto{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
+h5{ padding-left: 100px;
+    padding-right: 100px;
+    
+}
 .ContenedorGral{
-display: inline-grid;
-background-color: #DD94FE;
-font-size: 17px;
-width: 80%;
-padding: 20px;
-object-position: center;
+    
+    background-color: #DD94FE;
+    text-align: center;
+    width: 60%;
+   
+     border-color: red;
+    border: solid;
+    text-align: center;
+   
+    box-shadow: 10px 5px 5px #FF6DCD;
+    padding: 0px;
+    
 
-	}
 
-
-.ContenedorGral img{
-	width: 200px;
-
-	}
-.remedios{
-
-	width: 20%;
 }
 
-.celia{
 
-	width: 20%;
+
+.contenedorPintoras{width: 80%;
+     
+     text-align: center;
+    width: 100%;
+    color: red;
+    display: flex;
+    
 }
 
-.lola{
+.contenedorPintoras img{
+    width: 200px;
+    height: 200px;
+      
 
-	width: 20%;
 }
 
-.lilia{
+.textolilia{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    color:#5F046C;
+}
 
-	width: 20%;
+.textolola{ padding-right: 10px;
+    padding-left: 10px;
+     text-align: justify;
+     color:#5F046C;
+    
+    
+}
+
+.textocelia{padding-right: 10px;
+    padding-left: 10px;
+     text-align: justify;
+     color:#5F046C;
+    
+    
+}
+
+.textoremedios{
+    padding-right: 10px;
+    padding-left: 10px;
+     text-align: justify;
+     color:#5F046C;
+    
+}
+
+
+.remedios{ width: 25%;
+   
+    border-color: red;
+    border: dotted;
+    font-size: 12px;
+  
+    
+
+
+}
+
+.celia{ width: 25%;
+   
+    border-color: red;
+    border: dotted;
+    font-size: 12px;
+    
+    
+  
+
+
+
+}
+
+.lola{ width: 25%;
+    border-color: red;
+    border: dotted;
+    font-size: 12px;
+ 
+
+
+}
+
+.lilia{ width: 25%;
+    border-color: red;
+    border: dotted;
+    font-size: 12px;
+padding:  0px;
+    padding-top: 0px;
+    
+
+
+}
+
+h3{ color: #E8115D;
+    font-size: 15px;
+}
+
+h4{ color: #5F046C;
+    font-size: 16px;
+}
+
+h2{
+    color: #510F79;
+
+}
+
+h1{ text-shadow: 3px 3px 1px #FF6DCD;
+    text-align: center;
+    
+    
+}
+
+.pintoras{
+    
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.referencias{
+   padding-left: 100px;
+    padding-right: 100px; 
+}
+
+/* Extra small devices (portrait phones, less than 976px)*/
+@media (max-width: 976px) {.
+    
+    .contenedorPintoras{
+        width: 90;}
+    .ContenedorGral{
+        width: 90%;
+        display:block;
+    }
+    
+    .contenedorPintoras img{
+    width: 150px;
+    height: 150px;
+    
+    
+    
+    
+    
 }
